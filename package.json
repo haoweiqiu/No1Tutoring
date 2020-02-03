@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "postinstall": "cd tutoringservice-frontend && npm install && npm install --save semver"
+  },
+  "name": "project-group-1",
+  "description": "Hi everyone, welcome to our group 1 repo. Our group consists of 5 passionate and enthusiastic Software and Computer Engineering students. <br /><br />  This projects would demonstrate our comprehension on software system and development. The term-long projects is evenly distributed into 5 deliverables respectively:<br  />",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McGill-ECSE321-Fall2019/project-group-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McGill-ECSE321-Fall2019/project-group-1/issues"
+  },
+  "homepage": "https://github.com/McGill-ECSE321-Fall2019/project-group-1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

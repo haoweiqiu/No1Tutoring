@@ -1,0 +1,2 @@
+rootProject.name = 'TutoringService-Backend'
+include ':TutoringService-Backend'

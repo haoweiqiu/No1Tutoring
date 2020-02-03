@@ -1,0 +1,54 @@
+package ca.mcgill.ecse321.tutoring_service.service;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.List;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import ca.mcgill.ecse321.tutoring_service.model.Registration;
+import ca.mcgill.ecse321.tutoring_service.model.School;
+import ca.mcgill.ecse321.tutoring_service.model.Student;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class RegistrationServiceTest {
+
+	@Autowired
+	private RegistrationService service;
+
+	@Autowired
+	private SchoolService schoolService;
+
+	@Autowired
+	private StudentService studentService;
+
+	@Test
+	public void testCreateRegistration() {
+		String studentName = "Joe";
+
+		String time = "2019/10/11";
+		assertEquals(0, service.getAllRegistration().size());
+
+		School school = service.createSchool("McGill University");
+
+		Student student = service.createStudent(studentName, 2010, school);
+		int studentId = student.getId();
+
+		boolean isCancelled = false;
+
+		service.createRegistration(time, isCancelled, studentId);
+
+		List<Registration> allRegistration = service.getAllRegistration();
+
+		assertEquals(1, allRegistration.size());
+//		service.deleteByTime(time);
+//		studentService.deleteStudent(studentName);
+//		schoolService.deleteSchool("McGill University");
+	}
+
+}
