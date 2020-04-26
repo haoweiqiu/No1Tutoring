@@ -2,6 +2,10 @@ site_name: No1Tutoring
 repo_url: https://github.com/haoweiqiu/No1Tutoring
 nav:
     - Home: 'index.md'
-    - System Requirements Analysis: 'website-requirement.md'
+    - System Requirements Analysis: 'website-requirements.md'
+    - Use Case Specification: 'use-case-specification.md'
+    - Architecture Model: 'architecture-model.md'
+    - Class Diagram: 'class-diagram.md'
+    - Extra Features: 'extra.md'
 
 theme: readthedocs
