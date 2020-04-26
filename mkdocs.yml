@@ -2,5 +2,6 @@ site_name: No1Tutoring
 repo_url: https://github.com/haoweiqiu/No1Tutoring
 nav:
     - Home: 'index.md'
+    - System Requirements Analysis: 'website-requirement.md'
 
 theme: readthedocs
