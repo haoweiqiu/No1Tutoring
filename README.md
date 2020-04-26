@@ -1,4 +1,4 @@
-# project-group-1 [![Build Status](https://travis-ci.com/McGill-ECSE321-Fall2019/project-group-1.svg?token=MNHYeoanUP1gwd2Xhaqy&branch=master)](https://travis-ci.com/McGill-ECSE321-Fall2019/project-group-1)
+# project-group-1 [![Build Status](https://travis-ci.com/McGill-ECSE321-Fall2019/project-group-1.svg?token=MNHYeoanUP1gwd2Xhaqy&branch=master)](https://travis-ci.com/McGill-ECSE321-Fall2019/project-group-1)[![Documentation Status](https://readthedocs.org/projects/no1-Tutoring/badge/?version=latest)](https://no1-tutoring.readthedocs.io/en/latest/?badge=latest)
 
 This repository is a copy from the ECSE 321 Intro to Software Engineering Group Project. The original project repository was set to private access. <br  /> 
 Hi everyone, welcome to our group 1 repo. Our group consists of 5 passionate and enthusiastic Software and Computer Engineering students. <br /><br /> 
