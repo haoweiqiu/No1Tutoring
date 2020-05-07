@@ -12,6 +12,5 @@ nav:
     - REST API Service Specification: 'REST Link.md'
     - Software Quality Assurance Report: 'Software Quality Assurance Report.md'
     - Use Case Diagram: 'Use Case Diagram.md'
-    - Extra Features: 'extra.md'
 
 theme: readthedocs
