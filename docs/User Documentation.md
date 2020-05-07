@@ -8,7 +8,7 @@
 4. Group Tutorial Request </br>  
 5. Check bill
 </br>
-### Note: </br>
+### Note </br>
 * Testing account: User: Jason, Password: 54321 
 * Available course to search: ECSE 223 
 * Tutors who offer ECSE 223: Tom, Erik, Lee 
