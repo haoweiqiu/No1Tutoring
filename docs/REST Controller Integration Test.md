@@ -1,5 +1,5 @@
 The integration test includes not only the implementation of the requirements described, but also consider the api for the manager and tutor's view point.
-## Integration test of the restful controller for the our own functions.
+## Integration test of the restful controller for the our own functions
 ### Sign up
 
 **Create a school**: "/schools/{name}", "/schools/{name}/" <br/>  
