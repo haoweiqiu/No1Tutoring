@@ -1,6 +1,6 @@
 Backend database host: https://tutoringservice-backend-333.herokuapp.com
 
-### Sign up:
+### Sign up
 
 **Create a school**: "/schools/{name}", "/schools/{name}/" <br/>  
 POST https://tutoringservice-backend-333.herokuapp.com/schools/Concordia<br/>    
@@ -21,7 +21,7 @@ GET https://tutoringservice-backend-333.herokuapp.com/schools/ubc<br/>
 
 POST https://tutoringservice-backend-333.herokuapp.com/Alex/ubc<br/>    
 <br/>    
-### Search:
+### Search
 
 **Get all tutors that teach searched course**: "/tutors_byCourse/{name}", "/tutors_byCourse/{name}/" <br/>  
 GET https://tutoringservice-backend-333.herokuapp.com/tutors_byCourse/COMP 202 <br/> 
@@ -31,7 +31,7 @@ GET https://tutoringservice-backend-333.herokuapp.com/tutors_byCourse/COMP 202 <
 GET https://tutoringservice-backend-333.herokuapp.com/tutors/Erik<br/>   
 <br/>   
 
-### Send tutorial request:
+### Send tutorial request
 
 **Create a session**: "/tutorial_request/tutorial_sessions", "/tutorial_request/tutorial_sessions/"<br/>   
 POST https://tutoringservice-backend-333.herokuapp.com/tutorial_request/tutorial_sessions?startTime=12:38& finishTime=13:38&courseName=COMP 206&tutorName=Erik<br/>   
@@ -45,7 +45,7 @@ POST https://tutoringservice-backend-333.herokuapp.com/tutorial_request/registra
 POST http://localhost:8080/tutorial_request/bills?amount=99.9&registrationNr=184 <br/>  
 <br/>    
 
-### Feedback:
+### Feedback
 
 **Student creates feedback for a tutor**: "/feedback", <br/>    
 POST https://tutoringservice-backend-333.herokuapp.com/feedback?comment=heisanicetutor!&reg_time=123&studentid=3&rate=5<br/>    
