@@ -30,8 +30,7 @@ Manually added two tutors Amanda and Kenza to both teach COMP 202: <br/>
 ### Send tutorial request
 
 **Create a session**: "tutorial_request/tutorial_sessions", "tutorial_request/tutorial_sessions/", @RequestParam(name = "startTime"), @RequestParam(name = "finishTime"), @RequestParam(name = "tutorName"), @RequestParam(name = "courseName"). <br/>
-![image](https://github.com/McGill-ECSE321-Fall2019/project-group-1/blob/master/Sprint1/Detailed%20User%20Case/createSessionUrl.png)</br>
-<img src="https://github.com/McGill-ECSE321-Fall2019/project-group-1/blob/master/Sprint1/Detailed%20User%20Case/createSessionResult.png" width="200">
+
 
 **Create a registration**(The session has to be created first): "tutorial_request/registration", "tutorial_request/registration/", @RequestParam("startTime"), @RequestParam("finishTime"), @RequestParam("tutorName"), @RequestParam("studentName") 
 ![Screen Shot 2019-10-31 at 12 19 55 AM](https://user-images.githubusercontent.com/23584135/67918841-658c9180-fb74-11e9-9786-73ab07896dac.png)<br/> 
