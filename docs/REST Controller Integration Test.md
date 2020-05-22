@@ -30,7 +30,8 @@ Manually added two tutors Amanda and Kenza to both teach COMP 202: <br/>
 ### Send tutorial request
 
 **Create a session**: "tutorial_request/tutorial_sessions", "tutorial_request/tutorial_sessions/", @RequestParam(name = "startTime"), @RequestParam(name = "finishTime"), @RequestParam(name = "tutorName"), @RequestParam(name = "courseName"). <br/>
-![image](https://user-images.githubusercontent.com/42322196/82713350-b4a52b80-9c58-11ea-841f-29e94a581388.png)
+![image](https://user-images.githubusercontent.com/42322196/82713350-b4a52b80-9c58-11ea-841f-29e94a581388.png) <br/>  
+The Request result is shown as follows  <br/>  
 ![image](https://user-images.githubusercontent.com/42322196/82713366-be2e9380-9c58-11ea-84ab-7590f9d3b0fd.png)
 
 **Create a registration**(The session has to be created first): "tutorial_request/registration", "tutorial_request/registration/", @RequestParam("startTime"), @RequestParam("finishTime"), @RequestParam("tutorName"), @RequestParam("studentName") 
