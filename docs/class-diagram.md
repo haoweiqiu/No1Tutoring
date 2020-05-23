@@ -1,7 +1,7 @@
 **I. Class Diagram**
 <img width="953" alt="Screen Shot 2019-10-12 at 8 04 45 PM" src="https://user-images.githubusercontent.com/46538726/66709155-97f05f00-ed2b-11e9-848a-a6ab94f91360.png">
 
-**II. Key decisions:**
+**II. Key decisions:** <br/>  
 1. The enumeration class SchoolType is created to indicate specific school type(CEGEP, High School or University). <br/>  
 2. The enumeration class roomType is created to indicate specific room type(OneToOneRoom or GroupRoom). <br/>  
 3. Two associations between the Registration class and the Feedback class are created with different names. One registration may have a student feedback or a tutor feedback. <br/>  
